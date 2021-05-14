@@ -55,7 +55,7 @@ while loop_cond == True:
 
     ## Checks if there are enough randomly generated codes for each condition
     
-    if len(F_lst) and len(S_lst) and len(N_lst) and len(P_lst) == 500:
+    if len(F_lst) == 500 and len(S_lst) == 500 and len(N_lst)== 500 and len(P_lst) == 500:
         print('worked')
         loop_cond = False
         break
